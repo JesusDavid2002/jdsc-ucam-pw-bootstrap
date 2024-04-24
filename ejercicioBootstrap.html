@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <title>Tarea Bootstrap</title>
+</head>
+<body class="container text-center border mt-5">
+    <header class="row border">
+        <h2 class="col">Header</h2>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-expanded="false" aria-controls="navbarPrincipal">
+            Menú desplegable
+        </button>
+        <nav id="navbarPrincipal" class="navbar navbar-expand-lg bg-body-tertiary collapse">
+            <aside class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">People</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="btn nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Music</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mixes</a></li>
+                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                            <li><a class="dropdown-item" href="#">Radio</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </aside>
+        </nav>        
+    </header>
+    <section class="row border">
+        <article class="col border">Articulo 1</article>
+        <article class="col border">Articulo 2</article>
+        <article class="col border">Articulo 3</article>
+        <aside class="col border">
+            <p>Menu lateral</p>
+        </aside>
+    </section>
+    <footer class="row border">
+        <p class="col">Footer</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
